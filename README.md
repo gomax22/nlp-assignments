@@ -1,5 +1,5 @@
 # Assigments for Natural Language Processing Course
-Workspace for NLP Course 21/22 of B.Sc. in Machine Learning &amp; Big Data @uniparthenope.
+Workspace for NLP Course 21/22 of M.Sc. in Machine Learning &amp; Big Data @uniparthenope.
 
 ## Assignment n.1
 ### Text Normalization using NLTK Library
