@@ -7,15 +7,15 @@ The course covered a wide range of NLP topics, and I completed three assignments
 
 For the first assignment, I prepared Jupiter notebook for explaining text normalization using the Natural Language Toolkit (NLTK) library. The notebooks covered the following operations:
 
-- Corpus loading: The first step was to load a corpus of text data to be normalized.
+- **Corpus loading**: The first step was to load a corpus of text data to be normalized.
 
-- Corpus statistics: I performed some basic exploratory data analysis to understand the corpus, including word frequency analysis and visualization.
+- **Corpus statistics**: I performed some basic exploratory data analysis to understand the corpus, including word frequency analysis and visualization.
 
-- Tokenization: I used NLTK's tokenization functionality to break down the text into individual words or tokens.
+- **Tokenization**: I used NLTK's tokenization functionality to break down the text into individual words or tokens.
 
-- Lemmatization: I used NLTK's WordNetLemmatizer to reduce each word in the corpus to its base or root form, which can help with standardization and normalization.
+- **Lemmatization**: I used NLTK's WordNetLemmatizer to reduce each word in the corpus to its base or root form, which can help with standardization and normalization.
 
-- Stemming: I also implemented stemming using NLTK's PorterStemmer, which is the process of reducing words to their base form by removing the suffix.
+- **Stemming**: I also implemented stemming using NLTK's PorterStemmer, which is the process of reducing words to their base form by removing the suffix.
 
 The notebooks were designed to provide a clear and thorough explanation of the text normalization process using NLTK.
 
@@ -24,7 +24,7 @@ The notebooks were designed to provide a clear and thorough explanation of the t
 For the second assignment, I used various NLP techniques to perform sentiment analysis on a dataset of movie reviews. Specifically, I used the NLTK library to preprocess the text data and prepare it for modeling. I also utilized TF-IDF vectorization and Continuous Bag of Words (CBOW) from the gensim library to vectorize word tokens. I then trained and evaluated a Naive Bayes classifier and logistic regression model to predict the sentiment of each review.
 
 This was the provided script:
- * Prepare Jupiter notebooks for explaining Sentiment Analysis with Naïve Bayes and Logistic regression
+ * **Prepare Jupiter notebooks for explaining Sentiment Analysis with Naïve Bayes and Logistic regression**
  * Also, consider any preprocessing step
  * It would be possible to use any python library for NLP e for Machine Learning, Data Analysis, and numerical computation (e.g., scikit-learn, Pandas, and NumPy)
 
@@ -35,15 +35,15 @@ For the third assignment, I implemented an auto-complete system using an N-gram 
 This was the provided script.
 * Prepare Jupiter Notebooks for explaining Auto-Complete operation using N-Gram Language Models:
 
-1. Load and preprocess data
+1. **Load and preprocess data**
     * Load and tokenize data.
     * Split the sentences into train and test sets.
     * Replace words with a low frequency by an unknown marker <unk>.
-2. Develop N-gram based language models
+2. **Develop N-gram based language models**
     * Compute the count of n-grams from a given data set.
     * Estimate the conditional probability of a next word with k-smoothing.
-3. Evaluate the N-gram models by computing the perplexity score.
-4. Use your own model to suggest an upcoming word given your sentence
+3. **Evaluate the N-gram models by computing the perplexity score.**
+4. **Use your own model to suggest an upcoming word given your sentence.**
 
 ## Technologies Used
 The assignments were completed using Python and various NLP libraries, including:
